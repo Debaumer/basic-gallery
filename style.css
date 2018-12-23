@@ -1,0 +1,123 @@
+body {
+  font-family: sans-serif;
+  background-color: #E4F1F1;
+}
+
+.jumbotron {
+  background-image: url('assets/collection1.png');
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  align-content: center;
+  color:white;
+}
+
+a {
+
+}
+
+#slider {
+  width: 720px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0px;
+  box-shadow: 5px 5px;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+.slide img {
+  width: 720px;
+  height: 400px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.ImageControls {
+  position: absolute;
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+#leftArrow {
+  position: absolute;
+  top: 50%;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border-radius: 100%;
+  outline: none;
+  z-index: 300;
+}
+
+#rightArrow {
+  position: absolute;
+  top: 50%;
+  margin-left: 660px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border-radius: 100%;
+  outline: none;
+  z-index: 300;
+
+}
+
+nav {
+  width: 100%;
+  font-size:18px;
+  background-color: #9d9d9d;
+  z-index: 900;
+  position: fixed;
+  text-align: center;
+}
+
+#center {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.gallery {
+  align: center;
+  align-content: center;
+  padding-left: 5%;
+}
+
+footer {
+  margin-top: 500px;
+  height: 10%;
+  width: auto;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  background: #2c2d35;
+
+}
